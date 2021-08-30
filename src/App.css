@@ -1,38 +1,131 @@
-.App {
-  text-align: center;
+h2{
+    font-size: 17px;
+    font-weight: lighter;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Pokemon{
+    background-color: white;
+    border-radius: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.poke--card{
+    display: flex;
+    flex-direction: column;
+    max-height: auto;
+    max-width: 250px;
+    margin: 30px auto;
+    border: 1px solid White;
+    border-radius: 20px;
+    padding: 15px 15px;
+    background-color: #f76666;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Name-type--div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.Name{
+    min-width: 100px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid White;
+    border-radius: 5px;
+    padding: 3px 5px;
+    background-color: white;
+    margin: 0px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Type--div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px;
+}
+
+.Type1{
+    display: flex;
+    margin: 0px 0px;
+    margin-left: 15px;
+    justify-content: flex-start;
+    border: 1px solid White;
+    border-radius: 5px;
+    padding: 3px 5px;
+    background-color: white;
+}
+
+.Type2{
+    display: flex;
+    margin: 0px 0px;
+    margin-left: 5px;
+    justify-content: flex-start;
+    border: 1px solid White;
+    border-radius: 5px;
+    padding: 3px 5px;
+    background-color: white;
+}
+
+.Info--div{
+    display: flex;
+    flex-direction: column;
+}
+
+.Description{
+    justify-content: flex-start;
+    border: 1px solid White;
+    border-radius: 5px;
+    margin: 10px 0px;
+    padding: 0px 5px;
+    background-color: white;
+}
+
+.Abilities--div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+    border: 1px solid White;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+.Abilities{
+    justify-content: flex-start;
+    margin: 7px auto;
+}
+
+.Number-button--div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Number{
+
+    border: 1px solid White;
+    border-radius: 5px;
+    margin: 10px 0px;
+    padding: 10px 10px;
+    background-color: white;
+}
+
+#right-button{
+    background-image: url(./Assets/Right.png);
+    background-size: 50px 50px;
+    height: 60px;
+    width: 50px;
+    border-color: #f76666;
+}
+
+#left-button{
+    background-image: url(./Assets/Left.png);
+    background-size: 50px 50px;
+    height: 60px;
+    width: 50px;
+    border-color: #f76666;
 }
